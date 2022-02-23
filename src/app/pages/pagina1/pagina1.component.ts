@@ -12,7 +12,6 @@ implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked,
 AfterViewInit, AfterViewChecked, OnDestroy {
 
   nombre:string = 'Lucía';
-
   segundos: number=0;
   timerSubscription!: Subscription;
 
